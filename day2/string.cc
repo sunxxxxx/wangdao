@@ -16,8 +16,10 @@ public:
     String()
     : _pstr(new char[1]())
     {
+        /*
         strcpy(_pstr,"0");
         cout<<"String()"<<endl;
+        */
     }
 
     void print()
